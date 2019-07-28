@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<UsualGroup name="ГруппаТехУсловияПроизводства" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тех. условия производства</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа тех условия производства</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаТехУсловияПроизводстваРасширеннаяПодсказка" id="30"/>
+			<ChildItems>
+				<Table name="ТехУсловияПроизводства" id="7">
+					<Representation>List</Representation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.ТехУсловияПроизводства</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тех. условия производства</v8:content>
+						</v8:item>
+					</Title>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ТехУсловияПроизводстваКонтекстноеМеню" id="8"/>
+					<AutoCommandBar name="ТехУсловияПроизводстваКоманднаяПанель" id="9">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ТехУсловияПроизводстваРасширеннаяПодсказка" id="10"/>
+					<SearchStringAddition name="ТехУсловияПроизводстваСтрокаПоиска" id="11">
+						<AdditionSource>
+							<Item>ТехУсловияПроизводства</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ТехУсловияПроизводстваСтрокаПоискаКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="ТехУсловияПроизводстваСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ТехУсловияПроизводстваСостояниеПросмотра" id="14">
+						<AdditionSource>
+							<Item>ТехУсловияПроизводства</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ТехУсловияПроизводстваСостояниеПросмотраКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="ТехУсловияПроизводстваСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ТехУсловияПроизводстваУправлениеПоиском" id="17">
+						<AdditionSource>
+							<Item>ТехУсловияПроизводства</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ТехУсловияПроизводстваУправлениеПоискомКонтекстноеМеню" id="18"/>
+						<ExtendedTooltip name="ТехУсловияПроизводстваУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ТехУсловияПроизводстваСвойство" id="23">
+							<DataPath>Объект.ТехУсловияПроизводства.Свойство</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТехУсловияПроизводстваСвойствоКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="ТехУсловияПроизводстваСвойствоРасширеннаяПодсказка" id="25"/>
+						</InputField>
+						<InputField name="ТехУсловияПроизводстваЗначение" id="26">
+							<DataPath>Объект.ТехУсловияПроизводства.Значение</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТехУсловияПроизводстваЗначениеКонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="ТехУсловияПроизводстваЗначениеРасширеннаяПодсказка" id="28"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.пSKU</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

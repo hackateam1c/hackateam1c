@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
+	<ConfigVersions>
+		<Metadata name="Catalog.пSKU" id="a2392b5c-329b-4a5a-91ff-3ec9d31ae33a" configVersion="735121c6c9a654418d864c754b93c29000000000">
+			<Metadata name="Catalog.пSKU.TabularSection.ТехУсловияПроизводства" id="22242fce-ad25-471a-9fee-4d81db4b1f5a"/>
+			<Metadata name="Catalog.пSKU.TabularSection.ТехУсловияПроизводства.Attribute.Свойство" id="55064049-e3d5-49a3-ac2c-7dd7a0866249"/>
+			<Metadata name="Catalog.пSKU.TabularSection.ТехУсловияПроизводства.Attribute.Значение" id="7f274eeb-aeb2-4703-9cca-900e095845d2"/>
+		</Metadata>
+		<Metadata name="Catalog.пSKU.Form.ФормаЭлемента" id="bcb3dbf0-23b8-4ae0-a859-426affea7a98" configVersion="1dcea50870c57e4d8925fb1cda114c1f00000000"/>
+		<Metadata name="Catalog.пSKU.Form.ФормаЭлемента.Form" id="bcb3dbf0-23b8-4ae0-a859-426affea7a98.0" configVersion="de87354a21e0f341a64f31cb666d988700000000"/>
+		<Metadata name="Catalog.пОборудование" id="63259756-ed82-4d84-815f-39ae352495bf" configVersion="88d3304222241845b5c03f8dc70662b500000000">
+			<Metadata name="Catalog.пОборудование.TabularSection.ТехУсловияПроизводства.Attribute.Значение" id="a015ae12-ece2-4e42-bebc-3e87a15297fa"/>
+			<Metadata name="Catalog.пОборудование.TabularSection.ТехУсловияПроизводства" id="c2c45570-c853-4419-9036-5b46b3cbeb68"/>
+			<Metadata name="Catalog.пОборудование.TabularSection.ТехУсловияПроизводства.Attribute.Свойство" id="c992dbfb-91ab-41d0-b6d8-fd9d3c7c9701"/>
+		</Metadata>
+		<Metadata name="Catalog.пОборудование.Form.ФормаЭлемента" id="5ccfb40e-fe98-4960-a203-a598dab401b9" configVersion="3a921aa827b0374fb8cb7432c38d59a700000000"/>
+		<Metadata name="Catalog.пОборудование.Form.ФормаЭлемента.Form" id="5ccfb40e-fe98-4960-a203-a598dab401b9.0" configVersion="9ef651a848167a4a910aa80921f4fd4f00000000"/>
+		<Metadata name="Catalog.пПартия" id="2e8e1bab-a974-44aa-b089-c42020112d06" configVersion="b80d17642885254eaa00cb708ff38e5e00000000">
+			<Metadata name="Catalog.пПартия.Attribute.ОписаниеБрака" id="0478d798-5bfc-45a9-9064-fbe0188012a0"/>
+			<Metadata name="Catalog.пПартия.Attribute.Производитель" id="0ab1787f-24b7-499b-86da-abd587a6e818"/>
+			<Metadata name="Catalog.пПартия.Attribute.ПартияРодитель" id="185ce1c0-325a-45f1-8fc2-77b29c1e960f"/>
+			<Metadata name="Catalog.пПартия.Attribute.ЕдиницаИзмерения" id="44565165-6355-4b47-a916-6847ecfbd3e6"/>
+			<Metadata name="Catalog.пПартия.Attribute.Номенклатура" id="63ac0f96-1021-4adc-9d30-6fc5212ab80b"/>
+			<Metadata name="Catalog.пПартия.Attribute.НомерПартии" id="760bfb2c-9b34-4b7f-8c01-eb5dcfd07df1"/>
+			<Metadata name="Catalog.пПартия.Attribute.ДатаПроизводства" id="7c62d545-d593-449b-ba21-1d9e71dbedf3"/>
+			<Metadata name="Catalog.пПартия.Attribute.Брак" id="82493ae2-9254-4ca4-82cf-17e1e089cddc"/>
+			<Metadata name="Catalog.пПартия.Attribute.Участник" id="827b8a65-d3dd-425f-b45d-92f925a82493"/>
+			<Metadata name="Catalog.пПартия.Attribute.Количество" id="a351ef46-1c26-436f-b8f3-1207d155277d"/>
+		</Metadata>
+		<Metadata name="Catalog.пПартия.Form.ФормаЭлемента" id="99e3187e-34c7-4285-b581-ba4d4f134d50" configVersion="74f91f3617f35a4a8fcbe1d88b34974000000000"/>
+		<Metadata name="Catalog.пПартия.Form.ФормаЭлемента.Form" id="99e3187e-34c7-4285-b581-ba4d4f134d50.0" configVersion="bf204a18a677b14ca80456a0cc8c502e00000000"/>
+		<Metadata name="Catalog.пУчастники" id="02b7afc5-963f-43b0-845b-acb14250aec1" configVersion="c64c51c39fc9c84094488792814f156f00000000">
+			<Metadata name="Catalog.пУчастники.TabularSection.Номенклатура" id="08f432ed-9e88-4649-af40-4ee90a976abd"/>
+			<Metadata name="Catalog.пУчастники.TabularSection.Оборудование.Attribute.Оборудование" id="2682e4fb-5f9c-4c29-a7f0-19040f7ce6a6"/>
+			<Metadata name="Catalog.пУчастники.Attribute.Реквизиты" id="597211aa-629c-41d4-8305-b6fa9cad4f93"/>
+			<Metadata name="Catalog.пУчастники.TabularSection.Оборудование" id="67fcd325-6fc7-4e16-b6b9-ea553fe689a1"/>
+			<Metadata name="Catalog.пУчастники.TabularSection.Номенклатура.Attribute.Номенклатура" id="b2cd7a28-9012-46d2-be06-305f78008caa"/>
+		</Metadata>
+		<Metadata name="Catalog.пУчастники.Form.ФормаЭлемента" id="590a2c0e-12c6-4334-b5e0-f61d6f4ae15c" configVersion="f2954c9a70283d4ba7a2b92b9d14a0d600000000"/>
+		<Metadata name="Catalog.пУчастники.Form.ФормаЭлемента.Form" id="590a2c0e-12c6-4334-b5e0-f61d6f4ae15c.0" configVersion="359d65283299af44bee9a31c5bf77aa500000000"/>
+		<Metadata name="CommonModule.ПромышленностьВызовСервера" id="3cb78649-0708-4e91-8945-936a017942d3" configVersion="67fa1cdfa692ea468d18253b7416cf8200000000"/>
+		<Metadata name="CommonModule.ПромышленностьВызовСервера.Module" id="3cb78649-0708-4e91-8945-936a017942d3.0" configVersion="8e80dd907b96b64bab22da4dd414205800000000"/>
+		<Metadata name="Configuration.Конфигурация" id="dfda7e8e-c621-431c-8d89-0ef9c9cb23e4" configVersion="1eee7070677e11449e53db269949189100000000"/>
+		<Metadata name="Constant.пНашУчастник" id="c77da2d8-76f5-4d95-a0c7-9d92962d8ff7" configVersion="b409fba08b99534ebf630979b644b0ac00000000"/>
+		<Metadata name="DataProcessor.пПромышленность" id="c26058f7-6960-4f97-96ac-0394e8f9c059" configVersion="0c5f3b6f61b11842bad9a38817c84a0900000000"/>
+		<Metadata name="DataProcessor.пПромышленность.Form.Партии" id="ee3dcef3-6d55-456f-ac6e-e29200c4997b" configVersion="bd9b5481546bdc4f9de1663869d1761000000000"/>
+		<Metadata name="DataProcessor.пПромышленность.Form.Партии.Form" id="ee3dcef3-6d55-456f-ac6e-e29200c4997b.0" configVersion="210367794b09674e8765cbe7d4dc07fe00000000"/>
+		<Metadata name="DataProcessor.пПромышленность.Form.Происхождение" id="042101de-760e-4c51-8185-05790d87f659" configVersion="a96ac67751b70548994e52c36114b94600000000"/>
+		<Metadata name="DataProcessor.пПромышленность.Form.Происхождение.Form" id="042101de-760e-4c51-8185-05790d87f659.0" configVersion="d2a251d4f6279f4e935334f0060169b200000000"/>
+		<Metadata name="DataProcessor.пПромышленность.Form.Форма" id="420c7cfd-7ef1-485a-b2ce-ae421e071e4d" configVersion="93db2aca7d7cc9438df7d28631c73a1200000000"/>
+		<Metadata name="DataProcessor.пПромышленность.Form.Форма.Form" id="420c7cfd-7ef1-485a-b2ce-ae421e071e4d.0" configVersion="d4da539ef451b948a276a25b2ef331a000000000"/>
+		<Metadata name="Language.Русский" id="e8dfd955-e069-4bfc-82db-6c8b83f6406b" configVersion="feeda71e4e5e5742bd48a1727b6019eb00000000"/>
+		<Metadata name="Subsystem.Промышленность" id="e5746aa5-2883-49a1-bdce-f6a0eb548340" configVersion="1458cc4199533e469cb28dd55cb29e0f00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
